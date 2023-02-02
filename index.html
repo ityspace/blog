@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+    <meta name="description" content="Hole of ITY">
+    <meta name="keywords" content="blog, thoughts, experiences">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      html {
+        height: 100%;
+        font-size: 16px;
+        scroll-behavior: smooth;
+        font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace
+      }
+
+      body {
+        line-height: calc(16px * 1.618);
+        max-width: 80ch;
+        margin: 1rem auto;
+        color: #333;
+        padding: 0 2rem 2rem 2rem;
+        background: #fff;
+        word-break: break-word
+      }
+
+      img,
+      video {
+        max-width: 100%;
+        margin: 0.5em 0;
+        border-radius: 8px
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        line-height: 1.25;
+        font-weight: normal;
+        color: #000
+      }
+
+      h1,
+      h2 {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 0.1em
+      }
+
+      nav {
+        padding: 0.67em 0 calc(0.67em * 2) 0
+      }
+
+      a img {
+        transition: all 0.5s ease
+      }
+
+      a img:hover {
+        scale: 1.1;
+        border-radius: 0px
+      }
+
+      a {
+        color: #000
+      }
+
+      a:visited {
+        color: #444
+      }
+
+      a:hover {
+        color: #000;
+        text-decoration: none
+      }
+
+      a:focus {
+        color: crimson
+      }
+
+      header,
+      footer {
+        font-size: 14px
+      }
+
+      nav a {
+        margin-right: 2ch;
+        color: #000
+      }
+
+      nav a:visited {
+        color: #000
+      }
+
+      hr {
+        box-sizing: content-box;
+        height: 0;
+        border: 0;
+        border-top: 1px solid #ddd
+      }
+
+      ul,
+      ol {
+        margin-block-start: 0.25em;
+        margin-block-end: 1em;
+        padding-inline-start: 2.5em
+      }
+
+      ul li::marker {
+        content: '- '
+      }
+
+      ul {
+        padding-inline-start: 1.5em
+      }
+
+      code {
+        background: #eff1f3;
+        color: #000;
+        padding: 2px 1ch;
+        border-radius: 6px;
+        font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+        font-size: 14px
+      }
+
+      pre code {
+        background: transparent;
+        display: block;
+        line-height: 1.25;
+        padding: 1.5em;
+        overflow-x: auto;
+        overflow-y: hidden;
+        border: 1px solid #ddd
+      }
+
+      blockquote {
+        margin-inline-start: 20px;
+        padding-left: 20px;
+        border-left: 2px solid #ddd;
+        font-style: italic
+      }
+
+      table {
+        border-collapse: collapse;
+        max-width: 100%
+      }
+
+      table tr td,
+      table tr th {
+        padding: 0.3em 1ch
+      }
+
+      table tr td {
+        vertical-align: top
+      }
+
+      table tr th {
+        border-bottom: 1px solid #ddd;
+        color: #000;
+        font-weight: normal;
+        text-align: inherit
+      }
+
+      .postlink {
+        line-height: 1.25;
+        white-space: pre-line
+      }
+
+      .postdate {
+        white-space: nowrap;
+        vertical-align: baseline
+      }
+
+      @media(prefers-color-scheme:dark) {
+        body {
+          background-color: #101010;
+          color: #a0aaaf
+        }
+
+        nav a,
+        nav a:visited {
+          color: #d0dadf;
+        }
+
+        nav a:focus {
+          color: #101010
+        }
+
+        a {
+          color: #d0dadf
+        }
+
+        a:visited {
+          color: #808a8f
+        }
+
+        a:hover {
+          background-color: #202325a0;
+          color: #d0dadf
+        }
+
+        a:focus {
+          background-color: #d0dadf;
+          color: #101010
+        }
+
+        hr,
+        table tr th,
+        blockquote {
+          border-color: #808a8f50
+        }
+
+        code,
+        pre code {
+          background-color: transparent;
+          color: #a0aaaf;
+          border: 1px solid #808a8f50
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        table tr th {
+          color: #d0dadf
+        }
+
+        h1,
+        h2 {
+          border-color: #808a8f50
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">ity.moe</a>
+        <a href="/posts/">posts</a>
+        <a href="/projects.html">code</a>
+      </nav>
+    </header>
+    <main>
+      
+
+
+
+
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="150px" height="150px" viewBox="0 0 605.000000 605.000000"><g transform="translate(0.000000,605.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+<path d="M2350 5690 c0 -20 49 -107 316 -566 147 -253 294 -509 326 -571 l59
+-112 -38 -24 c-21 -13 -209 -123 -418 -244 -209 -122 -458 -266 -554 -322 -96
+-56 -175 -100 -177 -99 -1 2 -99 170 -217 373 -313 540 -473 802 -515 839 -13
+11 -22 14 -22 7 0 -21 44 -101 293 -528 316 -543 370 -640 364 -658 -15 -38
+-205 -50 -907 -61 -256 -4 -474 -10 -485 -15 -11 -4 109 -8 266 -8 157 -1 489
+-4 737 -8 l452 -6 0 -697 0 -697 -277 -6 c-153 -4 -424 -8 -603 -8 -576 -2
+-657 -13 -165 -22 756 -14 968 -28 982 -63 6 -17 -63 -144 -373 -676 -134
+-230 -253 -437 -264 -459 -25 -48 -22 -70 5 -43 43 44 266 408 555 909 95 165
+173 301 174 302 1 1 177 -100 391 -225 215 -125 474 -275 575 -334 102 -59
+193 -113 204 -121 17 -13 15 -20 -49 -138 -38 -68 -154 -270 -258 -449 -341
+-583 -377 -646 -377 -675 0 -8 4 -15 9 -15 10 0 114 164 281 445 252 424 423
+706 438 725 16 20 20 15 114 -137 53 -87 176 -293 274 -458 208 -353 329 -549
+349 -565 12 -10 15 -8 15 11 0 26 -41 100 -296 535 -205 350 -339 584 -377
+661 l-26 51 127 75 c70 41 327 190 572 332 245 142 455 264 466 272 20 13 27
+3 190 -279 287 -499 530 -896 567 -927 25 -20 31 -7 12 29 -9 17 -125 219
+-259 448 -267 460 -396 687 -396 700 0 17 54 33 148 42 84 8 724 26 1132 32
+l135 1 -135 8 c-74 3 -277 7 -451 8 -174 0 -445 4 -602 8 l-287 6 0 697 0 697
+458 6 c251 4 583 7 737 8 154 0 271 4 260 8 -11 5 -229 11 -485 15 -669 10
+-885 23 -905 56 -10 16 36 99 416 751 225 387 253 438 245 446 -22 23 -183
+-232 -561 -887 -103 -179 -189 -329 -192 -333 -3 -4 -23 3 -46 16 -77 43 -860
+499 -1005 584 l-142 84 16 32 c41 79 180 323 317 557 339 576 389 670 358 670
+-13 0 -122 -174 -348 -555 -211 -355 -347 -580 -369 -610 -13 -17 -16 -18 -25
+-5 -5 8 -109 182 -231 385 -405 679 -471 785 -488 785 -5 0 -10 -5 -10 -10z
+m883 -1368 c183 -109 633 -368 867 -499 l195 -110 0 -724 0 -723 -495 -283
+c-272 -155 -543 -308 -603 -338 l-107 -56 -133 70 c-72 39 -343 192 -602 340
+l-470 268 -3 720 -2 720 597 346 c329 190 604 346 611 346 7 1 73 -34 145 -77z"></path>
+</g>
+</svg>
+
+
+
+      <h1></h1>
+      <p> Welcome to the index.html of ity.moe. </p>
+      
+      
+    </main>
+    <footer>
+      <br>
+      <hr>
+      <p>No Copyright</p>
+      <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</a>
+    </footer>
+  
+
+</body></html>
+
